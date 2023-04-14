@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680654984 source:c:\users\lucas\onedrive\if\bsi\1-periodo\algoritmos\c\media\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
