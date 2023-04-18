@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1681778321 source:c:\users\lucas\onedrive\if\bsi\1-periodo\algoritmos\c\dia e quinzena (sem funcao)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
