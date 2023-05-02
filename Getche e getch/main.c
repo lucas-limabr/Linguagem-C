@@ -3,13 +3,15 @@
 
 int main()
 {
+    char blz, ok;
+
     //na função getche é exibido o caractere que vc teclou
     printf("Tecle: ");
-    char blz = getche();
+    blz = getche();
 
-    //na função getch não é exibido o caracetre que vc teclou
+    //na função getch não é exibido o caractere que vc teclou
     printf("\nTecle denovo: ");
-    char ok = getch();
+    ok = getch();
 
     printf("\n%c", ok);
 }
