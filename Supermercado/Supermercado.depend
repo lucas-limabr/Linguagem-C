@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1683311172 source:c:\users\lucas\onedrive\if\bsi\1-periodo\algoritmos\linguagem-c\supermercado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

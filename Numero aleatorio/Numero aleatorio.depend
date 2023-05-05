@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1683318055 source:c:\users\lucas\onedrive\if\bsi\1-periodo\algoritmos\linguagem-c\numero aleatorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+
