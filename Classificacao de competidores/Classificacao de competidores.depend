@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1683210631 source:c:\users\lucas\onedrive\if\bsi\1-periodo\algoritmos\c\classificacao de competidores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1683246052 source:c:\users\lucas\onedrive\if\bsi\1-periodo\algoritmos\linguagem-c\classificacao de competidores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

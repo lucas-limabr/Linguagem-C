@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1683249473 source:c:\users\lucas\onedrive\if\bsi\1-periodo\algoritmos\c\tabuada inteligente\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
