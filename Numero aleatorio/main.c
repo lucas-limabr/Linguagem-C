@@ -17,10 +17,7 @@ int main()
     */
     srand(time(NULL));
 
-    for(cont = 0; cont < 1; cont++)
-    {
-        num_aleatorio = rand() % 100 + 1;
-    }
+    num_aleatorio = rand() % 100 + 1;
 
     printf("\nTente adivinhar o número que foi sorteado (no intervalo de 1 a 100)");
 

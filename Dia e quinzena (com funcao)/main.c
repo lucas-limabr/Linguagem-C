@@ -7,11 +7,11 @@ char exibir_msg(int dia, char mes[20])
 
     if(dia <= 15)
     {
-        return printf("Primeira quinzena de %s", mes);
+        printf("Primeira quinzena de %s", mes);
     }
     else
     {
-        return printf("Segunda quinzena de %s", mes);
+        printf("Segunda quinzena de %s", mes);
     }
 }
 
