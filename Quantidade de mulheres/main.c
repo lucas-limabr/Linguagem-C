@@ -2,12 +2,14 @@
 #include <stdlib.h>
 #include<locale.h>
 
+int qtdMulheres(char sexo, int idade);
+
 int main()
 {
     setlocale(LC_ALL, "");
 
     char continua, sexo;
-    int idade, qtd_mulheres = 0;
+    int idade, total_mulheres = 0;
 
     do
     {
@@ -20,14 +22,23 @@ int main()
         printf("Há mais alguém para informar os dados? [s]- sim / [n]- não: ");
         continua = getche();
 
-        printf("\n");
+        total_mulheres += qtdMulheres(sexo, idade);
 
-        if(sexo == 'f' && (idade > 18 && idade < 35))
-        {
-            qtd_mulheres++;
-        }
+        printf("\n");
     }
     while(continua == 's');
 
-    printf("\nA quantidade de mulheres com idade entre 18 e 35 anos é %d", qtd_mulheres);
+    printf("\nA quantidade de mulheres com idade entre 18 e 35 anos é %d", total_mulheres);
+}
+
+int qtdMulheres(char sexo, int idade)
+{
+   int total_mulheres = 0;
+
+   if(sexo == 'f' && (idade > 18 && idade < 35))
+    {
+        total_mulheres++;
+    }
+
+    return total_mulheres;
 }
