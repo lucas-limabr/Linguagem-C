@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1683716406 source:c:\users\lucas\onedrive\if\bsi\1-periodo\algoritmos\linguagem-c\sorteio escolhido pelo user\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
