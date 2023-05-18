@@ -10,7 +10,7 @@ int main()
     scanf("%d", &segundos);
 
     while(segundos > 0){
-        printf("\n\tFLU CAMPEAO");
+        printf("%d\n", segundos);
         segundos--;
 
         Sleep(1000);

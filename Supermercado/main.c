@@ -2,12 +2,15 @@
 #include <stdlib.h>
 #include<locale.h>
 
+float totalCompras(float valor, int qtd);
+float valorFinal(float total, int pagamento);
+
 int main()
 {
     setlocale(LC_ALL, "");
 
     int qtd_itens, pagamento;
-    float valor_produto, valor_total = 0;
+    float valor_produto, valor_total;
     char continua;
 
     do{
@@ -20,9 +23,8 @@ int main()
         printf("Tem mais produtos para passar no caixa? [s]- sim / [n]- não: ");
         continua = getche();
 
+        valor_total += totalCompras(valor_produto, qtd_itens);
         printf("\n");
-
-        valor_total += (valor_produto * qtd_itens);
     }
     while(continua == 's');
 
@@ -31,12 +33,20 @@ int main()
     printf("\nDigite 0 para pagamento à vista, ou 1 para cartão de crédito: ");
     scanf("%d", &pagamento);
 
+    printf("\nValor total da sua compra: R$%.2f", valorFinal(valor_total, pagamento));
+}
+
+float totalCompras(float valor, int qtd){
+
+    return valor * qtd;
+}
+
+float valorFinal(float total, int pagamento){
+
     if(pagamento){
-        valor_total *= 1.05;
+        return total * 1.05;
     }
     else{
-        valor_total *= 0.95;
+        return total * 0.95;
     }
-
-    printf("\nValor total da sua compra: R$%.2f", valor_total);
 }
