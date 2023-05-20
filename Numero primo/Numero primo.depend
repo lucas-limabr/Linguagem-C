@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1684522837 source:c:\users\lucas\onedrive\if\bsi\1-periodo\algoritmos\linguagem-c\numero primo\main.c
+	<stdio.h>
+	<stdlib.h>
+
