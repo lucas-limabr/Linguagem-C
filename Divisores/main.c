@@ -14,7 +14,7 @@ int main()
 }
 
 divisores(int numero){
-    int cont, metade, divisores = 0;
+    int cont, divisores = 0;
 
     for(cont = 1; cont <= (numero /2); cont++){
         if(numero % cont == 0){
