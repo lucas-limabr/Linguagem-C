@@ -10,7 +10,7 @@ int main()
    printf("Digite um numero inteiro e positivo: ");
    scanf("%d", &numero);
 
-   divisores(numero);
+   printf("e %d sao os %d divisores de %d", numero, divisores(numero), numero);
 }
 
 divisores(int numero){
@@ -24,5 +24,5 @@ divisores(int numero){
     }
     //o próprio numero também é um divisor
     divisores++;
-    printf("e %d sao os %d divisores de %d", numero, divisores, numero);
+    return divisores;
 }

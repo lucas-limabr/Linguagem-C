@@ -3,19 +3,29 @@
 
 int main()
 {
-    int altura, cont, i = 0;
+    int altura;
 
     printf("Informe a altura que voce deseja para o triangulo: ");
     scanf("%d", &altura);
 
-    for(cont = 0; cont < altura; cont++)
-    {
-        printf("\n*");
+   imprimirRetangulo(altura);
+}
 
-        while(i)
+imprimirRetangulo(int altura){
+     int cont = 0, i = 0;
+
+     while(cont <= altura)
+    {
+        //quando eu voltar para o primeiro laço, eu preciso zerar a variável i para
+
+        i = 0;
+        while(i < cont)
         {
             printf("*");
+            i++;
 
         }
+        cont++;
+        printf("\n");
     }
 }
