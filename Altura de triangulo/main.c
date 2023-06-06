@@ -1,23 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+imprimirRetangulo(int altura);
+
 int main()
 {
     int altura;
 
     printf("Informe a altura que voce deseja para o triangulo: ");
     scanf("%d", &altura);
-
-   imprimirRetangulo(altura);
+    imprimirRetangulo(altura);
 }
 
-imprimirRetangulo(int altura){
-     int cont = 0, i = 0;
+imprimirRetangulo(int altura)
+{
+    int cont = 0, i;
 
-     while(cont <= altura)
+    while(cont <= altura)
     {
         //quando eu voltar para o primeiro laço, eu preciso zerar a variável i para
-
         i = 0;
         while(i < cont)
         {

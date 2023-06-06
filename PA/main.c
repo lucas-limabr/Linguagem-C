@@ -23,9 +23,7 @@ int somaDosTermos(int termo1, int termo2, int qtd_termos){
     razao = termo2 - termo1;
 
     while(cont < qtd_termos){
-        result = termo1 + termo2;
-        termO1 += razao;
-        termo2 += razao;
+
     }
 
     return result;
