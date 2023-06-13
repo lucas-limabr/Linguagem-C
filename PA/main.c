@@ -14,17 +14,14 @@ int main()
     printf("Quantos termos a PA possui? ");
     scanf("%d", &qtd_termos);
 
-    printf("%d", somaDosTermos(termo1, termo2, qtd_termos));
+    printf("Soma dos termos desta PA: %d", somaDosTermos(termo1, termo2, qtd_termos));
 }
 
 int somaDosTermos(int termo1, int termo2, int qtd_termos){
+   int razao = termo2 - termo1;
+   int ultimo_termo = termo1 + (qtd_termos - 1) * razao;
 
-    int cont = 0, result = 0, razao;
-    razao = termo2 - termo1;
+   int soma_pa = (termo1 + ultimo_termo) * qtd_termos / 2;
 
-    while(cont < qtd_termos){
-
-    }
-
-    return result;
+   return soma_pa;
 }
