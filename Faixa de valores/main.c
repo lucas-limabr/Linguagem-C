@@ -22,8 +22,16 @@ void imprimeNumeros(int valor_inicial, int valor_final)
 
     printf("\n");
 
-    for(cont = valor_inicial; cont <= valor_final; cont++)
+    if(valor_inicial < valor_final)
     {
-        printf("%d,", cont);
+        for(cont = valor_inicial; cont <= valor_final; cont++)
+        {
+            printf("%d,", cont);
+        }
+    }
+    else if(valor_inicial > valor_final){
+        for(cont = valor_inicial; cont >= valor_final; cont--){
+            printf("%d,", cont);
+        }
     }
 }
