@@ -19,7 +19,7 @@ int main()
         printf("Qual a temperatura em graus celsius?(Digite apenas o numero inteiro) ");
         scanf("%d", &temperatura);
 
-        printf("Temperatura de %s: ", nome_cidade);
+        printf("Temperatura de %s ", nome_cidade);
 
         //se o retorno desta função for diferente de 0, será printado na tela o sinal de + ou de -
         if(leitorTemperatura(temperatura))
