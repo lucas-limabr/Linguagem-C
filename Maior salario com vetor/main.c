@@ -32,3 +32,4 @@ float maiorSalario(int qtd_funcionario, float salario[qtd_funcionario]){
 
     return maior_salario;
 }
+
