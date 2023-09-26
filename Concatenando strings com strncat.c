@@ -6,7 +6,7 @@ void main()
     char str1[30] = "Curso ";
     char str2[20] = "de programacao em C ";
 
-    strncat(str1, str2,15);
+    strncat(str1, str2);
 
     printf("str1 = %s \n", str1);
 
