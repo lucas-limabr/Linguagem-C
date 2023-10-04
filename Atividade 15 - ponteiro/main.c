@@ -27,8 +27,7 @@ float calculaFaturamento(float *valor_vendas, int qtd_vendas){
 
 
     for(i = 0; i < qtd_vendas; i++){
-        faturamento_total += *valor_vendas;
-        valor_vendas++;
+        faturamento_total += *(valor_vendas + i);
     }
 
     return faturamento_total;

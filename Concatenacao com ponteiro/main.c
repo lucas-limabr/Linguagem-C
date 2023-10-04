@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include<string.h>
 
+
 void concatenaString(char *string1, char *string2);
 
 int main()
