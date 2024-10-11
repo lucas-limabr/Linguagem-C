@@ -14,7 +14,7 @@ int main()
 
 imprimirRetangulo(int altura)
 {
-    int cont = 0, i;
+    int cont = 1, i;
 
     while(cont <= altura)
     {
